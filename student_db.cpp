@@ -55,6 +55,7 @@ int main() {
     loadData();
     int ch;
     do {
+        cout<<"\t\tStudent Database";
         cout << "\n1.Add 2.View 3.Search 4.Delete 5.Exit\nChoice: ";
         cin >> ch;
         if (ch==1) addStudent();
@@ -63,3 +64,4 @@ int main() {
         else if (ch==4) deleteStudent();
     } while (ch != 5);
 }
+
